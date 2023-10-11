@@ -1,0 +1,60 @@
+.main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.box{
+            width: 400px;
+            height: 350px;
+            background-image: url(lotus.jpg);
+            border: ridge 2px violet; 
+          transition: transform 6s ease;
+            animation: changeimage 5s infinite alternate;
+        }
+        @keyframes changeimage{
+            15%{background-image: url(yellow.jpg)}
+            25%{background-image: url(sun.jpg)}
+            25%{background-image: url(bathukamma.jpg)}
+             30%{background-image: url(hibi.jpg)}
+            
+        }
+       
+p{
+    text-align: center;
+    color:darkmagenta;
+    font-size: 18px;
+}
+label{
+    color: darkblue;
+    font-size: 20px;
+}
+body{
+    
+   background-image: url("11111.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: crimson;
+    font-family:monospace;
+    text-decoration: underline;
+    background-color: yellow;
+    border: 1px ridge yellow;
+    
+}
+ @media screen and (max-width:700px){
+     p{
+       font-size: 20px;
+         color: blue;
+     }
+            
+        }
+        @media screen and (min-width:701px) and (max-width:1200px){
+            p{
+                font-size: 30px;
+                color:green;
+            }
+        }
